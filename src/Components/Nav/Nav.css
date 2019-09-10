@@ -9,14 +9,12 @@
 
 #navbar.bg-active {
   background: #181d23;
-  /* background: #222; */
 }
 
 #navbar .nav-wrapper {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* align-content: center; */
   align-items: center;
   max-width: 1400px;
   padding: 0 2rem;
@@ -28,19 +26,16 @@
   cursor: default;
 }
 
-/**** MENU BUTTON ****/
 .menu-button {
   position: relative;
   height: 22px;
   width: 30px;
   outline: none;
-  /* outline-color: #181d23; */
 }
 
 .menu-button span,
 .menu-button span::before,
 .menu-button span::after {
-  /* position: relative; */
   position: absolute;
   content: "";
   width: 30px;

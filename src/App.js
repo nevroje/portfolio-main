@@ -21,6 +21,7 @@ class App extends Component {
         : "deactive"
     }));
   };
+
   render() {
     return (
       <>
@@ -28,9 +29,9 @@ class App extends Component {
         <Nav toggleMenu={this.toggleMenu} showMenu={this.state.menuState} />
         <Header />
         <About />
-        <Footer />
         <Projects />
         <Contact />
+        <Footer />
       </>
     );
   }
@@ -47,7 +48,7 @@ class App extends Component {
         document.documentElement.scrollTop || document.body.scrollTop;
 
       if (scrollPos <= window.innerHeight) {
-        forest.style.bottom = `${parseInt(scrollPos / 6)}px`;
+        forest.style.bottom = `${parseInt(forestInitPos + scrollPos / 6)}px`;
       }
 
       if (scrollPos - 100 <= window.innerHeight)
