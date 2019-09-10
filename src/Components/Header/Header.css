@@ -16,8 +16,18 @@
     background: url(../../Images/Stars.svg);
     background-attachment: fixed;
     width: 100%;
-    /* z-index: 1;
+    z-index: 1;
     min-height: 100vh;
-    opacity: 0; */
+    opacity: 0;
     animation: stars-move-in 1000ms 300ms forwards;
+}
+
+@keyframes stars-move-in {
+    from {
+        background-position-y: -90px;
+    }
+    to {
+        opacity: 1;
+        background-position-y: 0;
+    }
 }
