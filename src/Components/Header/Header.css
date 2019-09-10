@@ -1,0 +1,11 @@
+/**** HEADER ****/
+#welcome-section {
+    background: #202736;
+    background-attachment: fixed;
+    background-size: cover;
+    background: linear-gradient(to bottom, #181d23 0%, #202736 80%);
+    position: relative;
+    min-height: 100vh;
+    margin: 0 auto;
+    z-index: 1;
+}
