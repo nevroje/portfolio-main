@@ -29,3 +29,5 @@ const Projects = props => {
     </section>
   );
 };
+
+export default Projects;
