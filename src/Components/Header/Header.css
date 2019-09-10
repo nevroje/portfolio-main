@@ -67,8 +67,10 @@
     width: 100%;
     height: 100%;
     opacity: 0;
+    /* opacity: 1; */
     /* size: 40%; */
     background-size: 50% 40%;
+    z-index: -1;
 }
 
 @keyframes moon-move-in {
