@@ -3,7 +3,8 @@
     background: #202736;
     background-attachment: fixed;
     background-size: cover;
-    background: linear-gradient(to bottom, #181d23 0%, #202736 80%);
+    background: url(../../Images/trees.jpg) bottom left repeat-x;
+    /* background: linear-gradient(to bottom, #181d23 0%, #202736 80%); */
     position: relative;
     min-height: 100vh;
     margin: 0 auto;
@@ -30,4 +31,9 @@
         opacity: 1;
         background-position-y: 0;
     }
+}
+
+.forest {
+    position: absolute;
+    background-size: cover;
 }
