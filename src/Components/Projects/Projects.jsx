@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "./Project";
 import "./Project.css";
+import FlexPanelImg from './Images/FlexPanelImg.jpg';
 
 // todo import project images
 
@@ -25,7 +26,23 @@ const Projects = props => {
           strive to learn more every day.
         </p>
       </div>
-      {/* Todo: Add projects */}
+      <div className="projects-wrapper">
+        <Project
+          title="Flex Panels."
+          img={FlexPanelImg}
+          tech="js css"
+          link="https://stupefied-benz-66a33f.netlify.com/"
+          repo="https://github.com/nevroje/Flex-panels"
+        >
+          <small>Built with pure ES6 and CSS.</small>
+          <p>
+            This is a small side project where i utilize the power of vanilla
+            css and javascript, you can click and feel the images!.
+          </p>
+        </Project>
+      </div>
     </section>
   );
 };
+
+export default Projects;
