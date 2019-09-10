@@ -1,0 +1,55 @@
+/**** OVERLAY ****/
+
+/** vh = 1% of the width of the "viewport" **/
+/** vw = 1% of the height of the "viewport" **/
+
+.menu-container > .overlay,
+.menu-container.active > .overlay {
+    position: absolute;
+    right: 0;
+    height: calc( 100vh - 120px );
+    width: calc( 100vw - 120px );
+    background: #fafafa;
+}
+
+.menu-container.active > .overlay {
+    animation: overlay-slide-in 300ms forwards 300ms;
+}
+
+.menu-container > .overlay {
+    animation: overlay-slide-out 300ms forwards;
+}
+
+@keyframes overlay-slide-in {
+    from {
+        width: calc( 100vw - 120px );
+    }
+    to {
+        width: 0;
+    }
+}
+
+@keyframes overlay-slide-out {
+    from {
+        left: 0;
+        right: 0;
+    }
+    to {
+        left: 0;
+        width: calc( 100vw - 120px );
+    }
+}
+
+/**** MENU ****/
+.menu-container {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: #202934;
+    border: 60px solid #181d23;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
