@@ -21,7 +21,7 @@ class App extends Component {
         : "deactive"
     }));
   };
-  render () {
+  render() {
     return (
       <>
         <Menu toggleMenu={this.toggleMenu} showMenu={this.state.menuState} />
@@ -32,7 +32,11 @@ class App extends Component {
         <Projects />
         <Contact />
       </>
-    )
+    );
+  }
+  // TODO: make parallax webflow effect
+  componentDidMount() {
+
   }
 }
 
