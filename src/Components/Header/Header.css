@@ -9,3 +9,15 @@
     margin: 0 auto;
     z-index: 1;
 }
+
+#welcome-section::before {
+    content: '';
+    position: fixed;
+    background: url(../../Images/Stars.svg);
+    background-attachment: fixed;
+    width: 100%;
+    /* z-index: 1;
+    min-height: 100vh;
+    opacity: 0; */
+    animation: stars-move-in 1000ms 300ms forwards;
+}
