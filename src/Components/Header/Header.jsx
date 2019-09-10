@@ -5,7 +5,6 @@ const Header = props => {
   return (
     <header id="welcome-section">
       <div className="forest" />
-      <div className="silhouette" />
       <div className="moon" />
       <div className="container" />
       <div className="buttons">

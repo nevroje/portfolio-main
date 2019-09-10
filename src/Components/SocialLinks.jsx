@@ -11,7 +11,7 @@ const SocialLinks = props => {
       >
         {/* spaceblock */} 
         {' '}
-        <i className="nev nevroje-github" />
+        <i className="fab fa-github" />
       </a>
     </div>
   );
