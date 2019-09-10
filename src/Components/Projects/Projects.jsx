@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "./Project";
 import "./Project.css";
-import FlexPanelImg from './Images/FlexPanelImg.jpg';
+import FlexPanelImg from "./Images/FlexPanelImg.jpg";
 
 // todo import project images
 
@@ -13,8 +13,7 @@ const Projects = props => {
         <p className="separator" />
         <p className="subtitle">
           Here's a list of Projects i have been working on lately. Some are from
-          my Bootcamp at
-          {' '}
+          my Bootcamp at{" "}
           <a
             href="https://www.craftacademy.se/"
             target="_blank"

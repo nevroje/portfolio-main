@@ -7,7 +7,7 @@ const Nav = props => {
       <nav id="navbar">
         <div className="nav-wrapper">
           <p className="name">
-            Joakim
+            Joakim {' '}
             <strong>Berglind</strong>
           </p>
           <a
