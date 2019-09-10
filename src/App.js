@@ -34,7 +34,8 @@ class App extends Component {
       </>
     );
   }
-  // parallax effect according to FreeCodeCamp
+  // parallax effect according to FreeCodeCamp.
+  // Do not recommend to use this on slow machines.
   componentDidMount() {
     const navbar = document.querySelector("#navbar");
     const header = document.querySelector("#welcome-section");
