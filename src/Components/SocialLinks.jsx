@@ -1,9 +1,20 @@
-import React from 'react';
+import React from "react";
 
 const SocialLinks = props => {
-    return (
-        
-    )
+  return (
+    <div className="social">
+      <a
+        href="profile-link"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Link to author's GitHub Profile"
+      >
+        {/* spaceblock */} 
+        {' '}
+        <i className="nev nevroje-github" />
+      </a>
+    </div>
+  );
 };
 
 export default SocialLinks;
