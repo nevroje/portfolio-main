@@ -3,6 +3,7 @@ import Project from "./Project";
 import "./Project.css";
 import FlexPanelImg from "./Images/FlexPanelImg.jpg";
 import DirtyLaundry from "./Images/DirtyLaundry.jpg";
+import RockPaperScissors from "./Images/RockPaperScissors.jpg"
 
 // todo import project images
 
@@ -49,11 +50,23 @@ const Projects = props => {
             link="https://dirty-laundry-2019.herokuapp.com/"
             repo="https://github.com/CraftAcademy/dirty-laundry-team1-2019"
           >
-            <small>Built using Ruby on Rails, CSS and Facebook OAUTH.</small>
+            <small>Built using Ruby on Rails, CSS, Facebook OAUTH, TDD, and we used CI/CD from Semaphore.</small>
             <p>
               This is a group project from my bootcamp, The idea was that if you
               live in an apartment building you can use this app to book laundry
               times.
+            </p>
+          </Project>
+          <Project
+            title="Rock paper scissors"
+            img={RockPaperScissors}
+            tech="js css"
+            link="https://rockpaperjedi.netlify.com/"
+            repo="https://github.com/nevroje/rockpaperscissors"
+          >
+            <small>Built with vanilla ES6 and CSS</small>
+            <p>
+              Rock paper scissors with a twist.
             </p>
           </Project>
         </div>
