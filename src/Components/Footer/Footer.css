@@ -1,0 +1,34 @@
+footer {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  /* justify-content: flex-end; */
+  /* position: relative; */
+  position: fixed;
+  z-index: 0;
+  background: #fafafa;
+  height: 150px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+footer .wrapper {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  /* align-content: center; */
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+}
+
+@media only screen and (max-widht: 649px) {
+  footer .wrapper {
+    flex-direction: column;
+  }
+
+  footer .wrapper h3 {
+    padding-bottom: .8rem;
+  }
+}

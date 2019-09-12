@@ -14,7 +14,7 @@ const Contact = props => {
             </p>
             <p className="separator" />
             <p className="subtitle">
-              Then, use the form below or send an email to{" "}
+              Then, use the form below or send an email to {" "}
               <span className="mail">
                 joakim.berglind
                 <i className="fas fa-at at" />
@@ -28,8 +28,8 @@ const Contact = props => {
           <SocialLinks />
         </div>
         <form id="contact-form" action="#">
-          <input placeholder="Name" type="text" name="name" required />
-          <input placeholder="Email" type="text" name="email" required />
+          <input placeholder="Name" name="name" type="text" required />
+          <input placeholder="Email" type="email" name="email" required />
           <textarea placeholder="Message" name="message" type="text" />
           <input className="button" id="submit" value="submit" type="submit" />
         </form>

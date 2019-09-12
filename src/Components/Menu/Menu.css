@@ -65,9 +65,9 @@
   background: url(../../Images/Stars.svg);
 }
 
-.menu-container::after {
-  background: url(../../Images/trees.svg) bottom repeat-x;
-}
+/* .menu-container::after {
+  background: url(../../Images/Trees.jpg) bottom repeat-x;
+} */
 
 .menu-container.deactive {
   animation: fade-out 600ms forwards;
@@ -161,7 +161,7 @@
 
 .menu-container ul li a:hover::after {
   content: " »";
-  color: #f300b4;
+  color: #0061f3;
 }
 
 .social {
@@ -180,7 +180,7 @@
 
 .menu-container a:hover,
 .menu-container a:active {
-  color: #f300b4;
+  color: #0061f3;
 }
 
 @media only screen and (max-width: 649px) {

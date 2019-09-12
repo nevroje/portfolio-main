@@ -6,8 +6,8 @@ const Nav = props => {
     <>
       <nav id="navbar">
         <div className="nav-wrapper">
-          <p className="name">
-            Joakim {' '}
+          <p className="brand">
+            Joakim
             <strong>Berglind</strong>
           </p>
           <a

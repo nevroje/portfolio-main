@@ -31,19 +31,19 @@
   }
 }
 
-/* .forest {
+.forest {
   position: absolute;
   bottom: -300px;
   left: 0;
-  /* background: url(../../Images/trees.jpg) bottom left repeat-x; */
-  /* background-position-x: 100px; */
-  /* background-size: cover;
+  background: url(../../Images/trees.svg) bottom left repeat-x;
+  background-position-x: 100px;
+  background-size: cover;
   width: 100%;
   height: 80%;
   opacity: 0;
   animation: forest-move-in 1000ms 500ms forwards;
   border-bottom: 300px solid #181d23;
-} */ 
+}
 
 @keyframes forest-move-in {
   from {
@@ -136,14 +136,14 @@
 
 #welcome-section .container .buttons a:hover,
 #welcome-section .container .buttons a:active {
-  border: 1px solid #f300b4;
+  border: 1px solid #0061f3;
   transform: translateY(-2px);
-  box-shadow: 0 10px 100px -20px #f300b4;
+  box-shadow: 0 10px 100px -20px #0061f3;
 }
 
 #welcome-section .container .buttons a.cta,
 #welcome-section .container .buttons a.cta:visited {
-  background: #f300b4;
+  background: #0061f3;
   border: 1px solid transparent;
   color: #fafafa;
   font-weight: bold;
@@ -152,7 +152,7 @@
 #welcome-section .container .buttons a.cta:hover,
 #welcome-section .container .buttons a.cta:active {
   background: transparent;
-  border: 1px solid #f300b4;
+  border: 1px solid #0061f3;
 }
 
 #welcome-section .container .buttons a:first-child {
@@ -164,7 +164,7 @@
 }
 
 .color {
-  color: #f300b4;
+  color: #0061f3;
   font-style: italic;
 }
 
