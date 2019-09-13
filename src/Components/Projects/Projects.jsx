@@ -15,7 +15,7 @@ const Projects = props => {
           <h3 className="title">My Projects</h3>
           <p className="separator" />
           <p className="subtitle">
-            Here's a list of Projects i have been working on lately. Some are
+            Here's a list of Projects I have been working on lately. Some are
             from my Bootcamp at{" "}
             <a
               href="https://www.craftacademy.se/"
@@ -24,8 +24,8 @@ const Projects = props => {
             >
               CraftAcademy
             </a>
-            , There i learned to code for about 4 months until i became a
-            Full-Stack Developer, i have now coded for almost 7 months and i
+            , There I learned to code for about 4 months until I became a
+            Full-Stack Developer, I have now coded for almost 7 months and I
             strive to learn more every day.
           </p>
         </div>
@@ -39,8 +39,8 @@ const Projects = props => {
           >
             <small>Built with pure ES6 and CSS.</small>
             <p>
-              This is a small side project where i utilize the power of vanilla
-              css and javascript, you can click and feel the images!.
+              This is a small side project where I utilize the power of vanilla
+              css and javascript, you can click and feel the images!
             </p>
           </Project>
           <Project

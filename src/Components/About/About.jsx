@@ -7,32 +7,32 @@ const About = props => {
       <div className="wrapper">
         <article>
           <div className="title">
-            <h3>Who am i?</h3>
+            <h3>Who am I?</h3>
             <p className="separator" />
           </div>
           <div className="desc full">
             <h4 className="subtitle">My name is Joakim.</h4>
             <p>I am a Full Stack Web Developer based in Stockholm Sweden.</p>
             <p>
-              And i am a really curiousity based person when it comes to
+              And I am a really curiousity based person when it comes to
               learning, solving problems and making web apps pretty, easy to use
               and manageable. My hobbies are Gaming, hanging out with friends
-              and learning, i cant stop learning!
+              and learning, I cant stop learning!
             </p>
           </div>
           <div className="title">
-            <h3>What i do</h3>
+            <h3>What I do</h3>
             <p className="separator" />
           </div>
           <div className="desc">
             <h4 className="subtitle">I'm a programmer.</h4>
             <p>
-              In the front-end i work with Javascript, React or Ruby On Rails. I
+              In the front-end I work with Javascript, React or Ruby On Rails. I
               also make the website look better using CSS or if a framework is
               needed: Bootstrap, Semantic UI, etc.
             </p>
             <p>
-              For the back-end i mostly work with Node.js, Express, i am in the
+              For the back-end I mostly work with Node.js, Express, I am in the
               process of learning SQL and MongoDB.
             </p>
           </div>
