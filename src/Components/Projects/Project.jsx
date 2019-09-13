@@ -6,6 +6,8 @@ const Project = props => {
     css: "fab fa-css3-alt",
     js: "fab fa-js-square",
     react: "fab fa-react",
+    vue: "fab fa-vuejs",
+    d3: "far fa-chart-bar",
     node: "fab fa-node"
   };
 
@@ -27,7 +29,7 @@ const Project = props => {
         />
       </a>
       <div className="project-details">
-        <div className="project-title">
+        <div className="project-tile">
           <p className="icons">
             {props.tech.split(" ").map(t => (
               <i className={tech[t]} key={t} />
@@ -41,7 +43,7 @@ const Project = props => {
             View source <i className="fas fa-external-link-alt" />
           </a>
           <a href={link} target="_blank" rel="noopener noreferrer">
-            Try it Live! <i className="fas fa-external-link-alt" />
+            Try it Live <i className="fas fa-external-link-alt" />
           </a>
         </div>
       </div>

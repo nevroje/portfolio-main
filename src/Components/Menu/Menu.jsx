@@ -1,12 +1,12 @@
 import React from "react";
 import SocialLinks from "../SocialLinks";
-import "./Menu";
+import "./Menu.css";
 
 const Menu = props => {
   return (
     <div className={`menu-container ${props.showMenu}`}>
       <div className="overlay" />
-      <div className="menu-item">
+      <div className="menu-items">
         <ul>
           <li>
             <a href="#welcome-section" onClick={props.toggleMenu}>

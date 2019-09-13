@@ -4,7 +4,7 @@ const SocialLinks = props => {
   return (
     <div className="social">
       <a
-        href="profile-link"
+        href="https://github.com/nevroje?tab=repositories"
         target="_blank"
         rel="noopener noreferrer"
         title="Link to author's GitHub Profile"
