@@ -1,7 +1,6 @@
 # FreeCodeCamp
 
-# Wip portfolio
-
+## Deployment: [Link](https://joakimberglind.netlify.com/)
 ## User Stories
 ### These are the requirements for this project.
 
