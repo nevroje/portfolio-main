@@ -22,7 +22,6 @@ const Contact = props => {
                 <i className="fas fa-circle dot" />
                 com
               </span>
-              :
             </p>
           </div>
           <SocialLinks />
