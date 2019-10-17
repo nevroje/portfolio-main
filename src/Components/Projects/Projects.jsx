@@ -3,6 +3,7 @@ import Project from "./Project";
 import "./Project.css";
 import FlexPanelImg from "./Images/FlexPanelImg.jpg";
 import DirtyLaundry from "./Images/DirtyLaundry.jpg";
+import portfolio from "./Images/portfolio.jpg";
 import RockPaperScissors from "./Images/RockPaperScissors.jpg"
 
 // todo import project images
@@ -30,6 +31,18 @@ const Projects = props => {
           </p>
         </div>
         <div className="projects-wrapper">
+        <Project
+            title="Portfolio"
+            img={portfolio}
+            tech="js css react"
+            link="https://joakimberglind.netlify.com/"
+            repo="https://github.com/nevroje/portfolio-main"
+          >
+            <small>Built with React</small>
+            <p>
+              Portfolio website I built with React.
+            </p>
+          </Project>
           <Project
             title="Flex Panels."
             img={FlexPanelImg}
@@ -46,7 +59,7 @@ const Projects = props => {
           <Project
             title="Laundry Booking."
             img={DirtyLaundry}
-            tech="Ruby on Rails"
+            tech="Ruby on Rails css"
             link="https://dirty-laundry-2019.herokuapp.com/"
             repo="https://github.com/CraftAcademy/dirty-laundry-team1-2019"
           >
